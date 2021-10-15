@@ -1,0 +1,43 @@
+.table_head {
+    margin-top: 5%;
+    text-align: left;
+    color: rgb(14, 3, 3);
+}
+
+figure {
+    margin: 5;
+}
+
+.tree, .section ul {
+list-style: none;
+padding: 5;
+margin-bottom: 10%;
+margin-right: 10%;
+margin-left: 10%;
+}
+
+.tree {
+background: rgb(63, 7, 24);
+border: 1px solid #690841;
+}
+
+.tree li {
+padding: 10px 12px;
+border-bottom: 1px solid #853477;
+}
+
+.tree li:last-child {
+border: 3;
+}
+
+.section ul { 
+    display: none; 
+}
+
+.section input:checked ~ ul { 
+    display: block;
+}
+
+.section input[type=checkbox] { 
+    display: none;
+}
