@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    align-content: center;
+}
+
+.web_head {
+    color: #832a4f;
+    margin-bottom: 5;
+    text-align: center;
+}
+
+a:link {
+    color: rgb(226, 211, 5);
+}
+
+a:visited {
+    color: rgb(209, 91, 245);
+}
+
+a:hover {
+    color: #41041b;
+}
+
+a:active {
+    color: #cf51b0;
+}
+
+.flashes {
+    color: rgb(94, 9, 58);
+}
